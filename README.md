@@ -5,10 +5,11 @@ This project required me to create an asynchronous web app that uses Web API and
 
 ## The following tasks were completed in this project:
 * Setup the Node.js environment.
-
-## Done
-What was done? I enhanced the server.js with two endpoints and required middleware to enable body-parser and cors.
-
-In website/app.js I created several functions for fetching weather data from OpenWeatherAPI, saving the data through the post request and updating the UI dynamically.
-
-Try it out!
+* Added the express, body-parser, and cors modules to Node.
+* Ran the local server and printed out logs to the Command Line.
+* Created API credentials on OpenWeatherMap.com.
+* The personal API key is stored in a const variable.
+* Data is successfully received from the weather API.
+* Implemented GET and POST routes on both the client and the server.
+* Dynamically display app data.
+* Add event listener to the form button using JS.
